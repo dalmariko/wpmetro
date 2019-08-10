@@ -120,9 +120,22 @@ add_action( 'widgets_init', 'metro_widgets_init' );
  * Enqueue scripts and styles.
  */
 function metro_scripts() {
-	wp_enqueue_style( 'metro-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'metro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+    wp_enqueue_style( 'metro-fonts', get_template_directory_uri().'/css/font/font.css' );
+
+    wp_enqueue_style( 'metro-style', get_template_directory_uri().'/css/main.css' );
+
+    wp_enqueue_style( 'metro-IE', get_template_directory_uri().'/css/css-ie.css' );
+
+    wp_enqueue_style( 'metro-calendarBrown', get_template_directory_uri().'/css/calendar-brown.css' );
+
+    //default style/
+   //wp_enqueue_style( 'metro-style', get_stylesheet_uri() );
+
+
+
+
+    wp_enqueue_script( 'metro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'metro-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

@@ -11,7 +11,6 @@
  *
  * @package metro
  */
-
 get_header();
 ?>
 
