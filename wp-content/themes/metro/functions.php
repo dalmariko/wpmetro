@@ -125,6 +125,7 @@ function metro_scripts() {
 
     wp_enqueue_style( 'metro-style', get_template_directory_uri().'/css/main.css' );
 
+
     wp_enqueue_style( 'metro-IE', get_template_directory_uri().'/css/css-ie.css' );
 
     wp_enqueue_style( 'metro-calendarBrown', get_template_directory_uri().'/css/calendar-brown.css' );
@@ -133,15 +134,26 @@ function metro_scripts() {
    //wp_enqueue_style( 'metro-style', get_stylesheet_uri() );
 
 
+    wp_enqueue_script( 'metro-cufon-yui', get_template_directory_uri() . '/js/cufon-yui.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-Robust_ICG_400', get_template_directory_uri() . '/js/Robust_ICG_400.font.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-cufon', get_template_directory_uri() . '/js/cufon.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-form', get_template_directory_uri() . '/js/form.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-custom-form-elements', get_template_directory_uri() . '/js/custom-form-elements.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-slides.min.jquery', get_template_directory_uri() . '/js/slides.min.jquery.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-jquery.infieldlabel.min', get_template_directory_uri() . '/js/jquery.infieldlabel.min.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-functions', get_template_directory_uri() . '/js/functions.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-calendar_stripped.js', get_template_directory_uri() . '/js/calendar_stripped.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-calendar-en', get_template_directory_uri() . '/js/calendar-en.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-calendar-setup_stripped', get_template_directory_uri() . '/js/calendar-setup_stripped.js', array(), '20151215', false );
 
 
-    wp_enqueue_script( 'metro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'metro-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+//    wp_enqueue_script( 'metro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+//
+//	wp_enqueue_script( 'metro-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+//
+//	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+//		wp_enqueue_script( 'comment-reply' );
+//	}
 }
 add_action( 'wp_enqueue_scripts', 'metro_scripts' );
 
