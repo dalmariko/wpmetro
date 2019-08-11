@@ -19,10 +19,9 @@
 
         <?php wp_nav_menu([
             'theme_location'  => 'top',
-            'container' => false,
+            'container' => 'ul',
             'menu_class' => 'nav',
             'depth'=>0,
-            'items_wrap' => '<ul class="nav"><li class="item-level"><a>%3$s</a></li></ul>',
             'walker'=>new My_Menu()
         ]); ?>
 

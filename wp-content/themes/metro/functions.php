@@ -357,7 +357,13 @@ class My_Menu extends Walker_Nav_Menu{
         } else {
             $atts['rel'] = $item->xfn;
         }
-        $atts['href']         = ! empty( $item->url ) ? $item->url : '';
+
+        $site = WP_HOME;
+        $count=strlen($site.'category/');
+
+        $atts['href'] = ! empty( $item->url ) ? $item->url : '';
+
+
         $atts['aria-current'] = $item->current ? 'page' : '';
 
         /**
@@ -384,7 +390,7 @@ class My_Menu extends Walker_Nav_Menu{
         $attributes = '';
         foreach ( $atts as $attr => $value ) {
             if ( ! empty( $value ) ) {
-                $value       = ( 'href' === $attr ) ? esc_url( $value ) : esc_attr( $value );
+                $value       = ( 'href' === $attr ) ? esc_url( substr_replace($value,'#',0,$count+1) ) : esc_attr( $value );
                 $attributes .= ' ' . $attr . '="' . $value . '"';
             }
         }

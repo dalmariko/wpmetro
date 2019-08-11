@@ -2,7 +2,9 @@
 get_header();
 ?>
 
-    <div class="wrapper">
+<!--HOME-->
+
+    <div class="wrapper" id="home">
         <div class="wrapper-in">
             <div class="content">
                 <div class="block-new">
@@ -92,6 +94,40 @@ get_header();
             </div>
         </div>
     </div>
+
+<!--END HOME-->
+
+<!--MENU-->
+
+<!--END MENU-->
+
+
+<!--FUNCTIONS-->
+
+
+<!--END FUNCTIONS-->
+
+<!--CONTACT-->
+
+
+<?php
+$categories = get_categories();
+
+foreach ($categories as $category){
+    $catname=get_category_link($category->term_id);
+
+    ?>
+   <a href="<?php echo $catname;?>"></a>
+
+<?php }; ?>
+
+
+<!--END CONTACT-->
+
+
+
+
+
 
 <?php
 get_footer();
