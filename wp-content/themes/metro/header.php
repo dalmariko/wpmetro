@@ -23,38 +23,37 @@
 </head>
 
 <body>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'metro' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$metro_description = get_bloginfo( 'description', 'display' );
-			if ( $metro_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $metro_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+<div class="container">
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'metro' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+    <div class="header">
+        <a id="logo" href="<?php bloginfo( 'url' ); ?>">Metro</a>
 
-	<div id="content" class="site-content">
+        <?php wp_nav_menu([
+            'theme_location'  => 'top',
+            'container' => false,
+            'menu_class' => 'nav',
+            'depth'=>0,
+            'items_wrap' => '<ul class="nav"><li class="item-level"><a>%3$s</a></li></ul>',
+
+            'walker'=>new My_Menu()
+        ]); ?>
+
+
+
+        <div id="slides">
+            <div class="slides_container">
+
+                <div class="slide">
+                    <a href="#"><img src="<?php echo get_template_directory_uri()?>/images/img-slider.jpg" alt="" /></a>
+                </div>
+
+                <?php the_post()?>
+                <?php the_content()?>
+
+            </div>
+            <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+        </div>
+
+    </div>
