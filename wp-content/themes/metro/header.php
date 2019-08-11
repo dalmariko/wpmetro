@@ -1,15 +1,3 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package metro
- */
-
-?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35,25 +23,13 @@
             'menu_class' => 'nav',
             'depth'=>0,
             'items_wrap' => '<ul class="nav"><li class="item-level"><a>%3$s</a></li></ul>',
-
             'walker'=>new My_Menu()
         ]); ?>
 
 
 
         <div id="slides">
-            <div class="slides_container">
-
-                <div class="slide">
-                    <a href="#"><img src="<?php echo get_template_directory_uri()?>/images/img-slider.jpg" alt="" /></a>
-                </div>
-
-                <?php the_post()?>
-                <?php the_content()?>
-
-            </div>
-            <a href="#" class="prev"></a>
-            <a href="#" class="next"></a>
+                <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
         </div>
 
     </div>
