@@ -116,9 +116,32 @@ get_header();
                 <p><b>Kitchen:</b><br> Mon – Thu 12pm-2pm, 6-9pm;<br> Fri 12pm-3pm, 6pm-9pm<br> Sat 6pm-9pm<br> <b>Bar:</b> Daily 11.30am-late<br> <b>Closed:</b> Sundays</p>
                 <h3>ADDRESS</h3>
                 <p>36-42 Courtney St,<br> (Cnr Blackwood St)<br> North Melbourne 3051<br> Victoria</p>
+
+
+                <?php
+
+                $contacts = get_posts(array(
+                    'numberposts' => 1,
+                    'category_name' => 'contact',
+                    'orderby' => 'date',
+                    'order' => 'DESC',
+                    'include' => array(),
+                    'exclude' => array(),
+                    'meta_key' => '',
+                    'meta_value' => '',
+                    'post_type' => 'post',
+                    'suppress_filters' => true,
+                ));
+
+                foreach ($contacts as $contact) :
+                    setup_postdata($contact);
+                    ?>
                 <div class="box-img-map">
-                    <a href="#"><img src="images/img-map.jpg" alt=""></a>
+                      <?php echo $contact->post_content ?>
                 </div>
+                <?php endforeach;
+                wp_reset_postdata(); ?>
+
             </div>
             <div class="sidebar">
                 <div class="block-sid">
