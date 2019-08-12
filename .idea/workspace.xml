@@ -2,127 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36f4efe9-1ebd-4b9b-8625-b8c569258cb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/robust-icg-cleartype.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/robust-icg-cleartype.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/background.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-a-pagenavi.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-a-pagenavi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-block-sid.gif" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-block-sid.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-date.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-date.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-li-current-pagination.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-li-current-pagination.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-li-nav.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-li-nav.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-li-pagination.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-li-pagination.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-line.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-next-2.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-next-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-next.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-next.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-prev-2.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-prev-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-prev.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-link-prev.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-sub.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-sub.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-time.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-time.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-title-follow_us.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-title-follow_us.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-title-functions_package.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-title-functions_package.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-title-make_a_reservation.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-title-make_a_reservation.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-wrapper.gif" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/bg-wrapper.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/btn_follow_us.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/btn_follow_us.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/btn_functions.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/btn_functions.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/clear.gif" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/clear.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-facebook.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-facebook.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-pdf.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-pdf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-twitter.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-twitter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-urbanspoon.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/icon-urbanspoon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/img-map.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/img-map.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/img-new.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/img-new.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/img-page-1.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/img-page-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/img-page-2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/img-page-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/img-slider.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/img-slider.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/images/logo_metropolitan_hotel.png" afterPath="$PROJECT_DIR$/wp-content/themes/metro/images/logo_metropolitan_hotel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-1024x576.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-1024x576.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-150x150.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-300x169.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-300x169.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-400x133.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-400x133.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-400x171.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-400x171.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-620x207.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-620x207.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-620x266.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-620x266.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-700x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-700x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-768x432.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-768x432.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-900x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD-900x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_4-HD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-1024x576.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-1024x576.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-150x150.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-300x169.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-300x169.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-400x133.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-400x133.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-400x171.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-400x171.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-620x207.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-620x207.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-620x266.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-620x266.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-700x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-700x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-768x432.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-768x432.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-900x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD-900x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_5-HD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-1024x576.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-1024x576.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-150x150.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-300x169.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-300x169.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-400x133.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-400x133.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-400x171.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-400x171.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-620x207.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-620x207.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-620x266.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-620x266.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-700x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-700x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-768x432.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-768x432.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-900x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD-900x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/2020_tesla_roadster_4k_7-HD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode-150x150.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode-300x177.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode-300x177.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode-768x454.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode-768x454.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/shortcode.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-1024x576.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-1024x576.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-150x150.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-300x169.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-300x169.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-400x133.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-400x133.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-400x171.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-400x171.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-620x207.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-620x207.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-620x266.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-620x266.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-700x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-700x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-768x432.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-768x432.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-900x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD-900x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_model_y_2020_4k-HD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-1024x576.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-1024x576.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-150x150.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-300x169.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-300x169.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-400x133.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-400x133.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-400x171.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-400x171.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-620x207.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-620x207.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-620x266.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-620x266.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-700x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-700x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-768x432.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-768x432.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-900x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD-900x300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/08/tesla_roadster_4k_2-HD.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/metro.info.iml" afterPath="$PROJECT_DIR$/.idea/metro.info.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/calendar-brown.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/calendar-brown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/css-ie.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/css-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/font.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/generator_config.txt" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/generator_config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-demo.html" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/robust-icg-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/easytabs.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/easytabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/grid_12-825-55-15.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/grid_12-825-55-15.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/specimen_stylesheet.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/specimen_stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/Robust_ICG_400.font.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/Robust_ICG_400.font.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/calendar-en.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/calendar-en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/calendar-setup_stripped.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/calendar-setup_stripped.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/calendar_stripped.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/calendar_stripped.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/cufon-yui.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/cufon-yui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/cufon.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/cufon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/custom-form-elements.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/custom-form-elements.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/form.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/functions.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/jquery.infieldlabel.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/jquery.infieldlabel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/js/slides.min.jquery.js" afterPath="$PROJECT_DIR$/wp-content/themes/metro/js/slides.min.jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -140,18 +22,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="15">
               <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,9 +42,21 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="392" column="87" lean-forward="false" selection-start-line="392" selection-start-column="87" selection-end-line="392" selection-end-column="87" />
+              <folding>
+                <element signature="e#12954#13826#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,8 +64,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="480">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -196,11 +90,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/metro/readme.txt" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/footer.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/404.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
       </list>
     </option>
   </component>
@@ -394,18 +288,19 @@
       <workItem from="1565527422512" duration="1548000" />
       <workItem from="1565543807929" duration="21680000" />
       <workItem from="1565597326134" duration="10602000" />
-      <workItem from="1565609740784" duration="4609000" />
+      <workItem from="1565609740784" duration="5012000" />
+      <workItem from="1565617438034" duration="403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45396000" />
+    <option name="totallyTimeSpent" value="46202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1280" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25892857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -466,9 +361,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +369,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2715">
           <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#12954#13826#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,9 +379,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,9 +403,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="51" column="7" lean-forward="false" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +411,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#12954#13826#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="82" column="15" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,6 +643,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1034">
           <caret line="4181" column="9" lean-forward="false" selection-start-line="4181" selection-start-column="9" selection-end-line="4181" selection-end-column="9" />
+          <folding>
+            <marker date="1558095183000" expanded="true" signature="117741:117770" ph="..." />
+            <marker date="1558095183000" expanded="true" signature="193533:193562" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,39 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2744">
           <caret line="1924" column="9" lean-forward="false" selection-start-line="1924" selection-start-column="9" selection-end-line="1924" selection-end-column="9" />
-          <folding>
-            <marker date="1555446651000" expanded="true" signature="66289:66305" ph="Insert into post... " />
-            <marker date="1555446651000" expanded="true" signature="66315:66331" ph="Insert into page... " />
-            <marker date="1555446651000" expanded="true" signature="94941:95025" ph="SELECT post_... $" />
-            <marker date="1555446651000" expanded="true" signature="96970:97121" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="97291:97384" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="103291:103331" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="104817:104885" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="105216:105293" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="105750:105815" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1555446651000" expanded="true" signature="106009:106063" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1555446651000" expanded="true" signature="111393:111476" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1555446651000" expanded="true" signature="113448:113531" ph="UPDATE ${$wp... " />
-            <marker date="1555446651000" expanded="true" signature="134813:134854" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="147731:147807" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="148894:149029" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="150154:150249" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="164830:164882" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="167555:167695" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="169563:169661" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="169730:169807" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="182101:182159" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="186902:186942" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="188157:188222" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1555446651000" expanded="true" signature="188417:188471" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1555446651000" expanded="true" signature="189681:189800" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1555446651000" expanded="true" signature="214718:214863" ph="SELECT post_... " />
-            <marker date="1555446651000" expanded="true" signature="214921:215062" ph="SELECT post_... " />
-            <marker date="1555446651000" expanded="true" signature="215174:215368" ph="SELECT DATE_... " />
-            <marker date="1555446651000" expanded="true" signature="226526:226636" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="229158:229214" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
-            <marker date="1555446651000" expanded="true" signature="232418:232487" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,23 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="211" column="9" lean-forward="false" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,15 +668,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="15">
           <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="102" />
           <folding />
         </state>
@@ -841,17 +698,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/404.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="395">
+          <caret line="392" column="87" lean-forward="false" selection-start-line="392" selection-start-column="87" selection-end-line="392" selection-end-column="87" />
+          <folding>
+            <element signature="e#12954#13826#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

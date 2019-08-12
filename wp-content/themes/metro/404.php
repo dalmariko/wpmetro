@@ -9,7 +9,17 @@
     <?php wp_head(); ?>
 </head>
 <body class="ER404">
+<div class="header">
+    <a id="logo" href="<?php bloginfo( 'url' ); ?>">Metro</a>
 
+    <?php wp_nav_menu([
+        'theme_location'  => 'top',
+        'container' => 'ul',
+        'menu_class' => 'nav',
+        'depth'=>0,
+        'walker'=>new My_Menu()
+    ]); ?>
+</div>
 </body>
 </html>
 

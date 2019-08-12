@@ -390,7 +390,7 @@ class My_Menu extends Walker_Nav_Menu{
         $attributes = '';
         foreach ( $atts as $attr => $value ) {
             if ( ! empty( $value ) ) {
-                $value       = ( 'href' === $attr ) ? esc_url( substr_replace($value,'#',0,$count+1) ) : esc_attr( $value );
+                $value       = ( 'href' === $attr ) ? esc_url( substr_replace($value,'/',0,$count+1) ) : esc_attr( $value );
                 $attributes .= ' ' . $attr . '="' . $value . '"';
             }
         }
