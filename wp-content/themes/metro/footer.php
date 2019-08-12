@@ -11,6 +11,26 @@
     </div>
 </div>
 </div>
+
+<script type='text/javascript'>
+    jQuery(function(){
+        jQuery('#slides').slides({
+            play: 5000,
+            pause: 5000,
+            hoverPause: true
+        });
+    });
+
+    jQuery(document).ready(function(){
+        Calendar.setup
+        ({
+            ifFormat    : "%d-%m-%Y",
+            inputField  : "date", // ID of the input field
+            button      : "date"      // ID of the button,
+        });
+    })
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

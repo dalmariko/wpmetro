@@ -134,26 +134,27 @@ function metro_scripts() {
    //wp_enqueue_style( 'metro-style', get_stylesheet_uri() );
 
 
-    wp_enqueue_script( 'metro-cufon-yui', get_template_directory_uri() . '/js/cufon-yui.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-Robust_ICG_400', get_template_directory_uri() . '/js/Robust_ICG_400.font.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-cufon', get_template_directory_uri() . '/js/cufon.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-form', get_template_directory_uri() . '/js/form.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-custom-form-elements', get_template_directory_uri() . '/js/custom-form-elements.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-slides.min.jquery', get_template_directory_uri() . '/js/slides.min.jquery.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-jquery.infieldlabel.min', get_template_directory_uri() . '/js/jquery.infieldlabel.min.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-functions', get_template_directory_uri() . '/js/functions.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-calendar_stripped.js', get_template_directory_uri() . '/js/calendar_stripped.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-calendar-en', get_template_directory_uri() . '/js/calendar-en.js', array(), '20151215', false );
-    wp_enqueue_script( 'metro-calendar-setup_stripped', get_template_directory_uri() . '/js/calendar-setup_stripped.js', array(), '20151215', false );
+    wp_enqueue_script( 'metro-cufon-yui', get_template_directory_uri() . '/js/jquery-1.7.1.min.js', array(), '', false );
+    wp_enqueue_script( 'metro-cufon-yui', get_template_directory_uri() . '/js/cufon-yui.js', array('Robust_ICG_400.font.js','cufon.js'), '', false );
+    wp_enqueue_script( 'metro-Robust_ICG_400', get_template_directory_uri() . '/js/Robust_ICG_400.font.js', array(), '', true );
+    wp_enqueue_script( 'metro-cufon', get_template_directory_uri() . '/js/cufon.js', array(), '', true );
+    wp_enqueue_script( 'metro-form', get_template_directory_uri() . '/js/form.js', array(), '', false );
+    wp_enqueue_script( 'metro-custom-form-elements', get_template_directory_uri() . '/js/custom-form-elements.js', array(), '', false );
+    wp_enqueue_script( 'metro-slides.min.jquery', get_template_directory_uri() . '/js/slides.min.jquery.js', array(), '', false );
+    wp_enqueue_script( 'metro-jquery.infieldlabel.min', get_template_directory_uri() . '/js/jquery.infieldlabel.min.js', array(), '', false );
+    wp_enqueue_script( 'metro-functions', get_template_directory_uri() . '/js/functions.js', array(), '', false );
+    wp_enqueue_script( 'metro-calendar_stripped.js', get_template_directory_uri() . '/js/calendar_stripped.js', array(), '', false );
+    wp_enqueue_script( 'metro-calendar-en', get_template_directory_uri() . '/js/calendar-en.js', array(), '', false );
+    wp_enqueue_script( 'metro-calendar-setup_stripped', get_template_directory_uri() . '/js/calendar-setup_stripped.js', array(), '', false );
 
 
-//    wp_enqueue_script( 'metro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-//
-//	wp_enqueue_script( 'metro-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-//
-//	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-//		wp_enqueue_script( 'comment-reply' );
-//	}
+    wp_enqueue_script( 'metro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '', true );
+
+	wp_enqueue_script( 'metro-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '', true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'metro_scripts' );
 
@@ -358,8 +359,7 @@ class My_Menu extends Walker_Nav_Menu{
             $atts['rel'] = $item->xfn;
         }
 
-        $site = WP_HOME;
-        $count=strlen($site.'category/');
+
 
         $atts['href'] = ! empty( $item->url ) ? $item->url : '';
 
@@ -388,9 +388,14 @@ class My_Menu extends Walker_Nav_Menu{
         $atts = apply_filters( 'nav_menu_link_attributes', $atts, $item, $args, $depth );
 
         $attributes = '';
+
+//        $site = WP_HOME;
+//        $count=strlen($site.'category/');
+
         foreach ( $atts as $attr => $value ) {
             if ( ! empty( $value ) ) {
-                $value       = ( 'href' === $attr ) ? esc_url( substr_replace($value,'/',0,$count+1) ) : esc_attr( $value );
+//                $value       = ( 'href' === $attr ) ? esc_url( substr_replace($value,'/',0,$count+1) ) : esc_attr( $value );
+                $value       = ( 'href' === $attr ) ? esc_url( $value ) : esc_attr( $value );
                 $attributes .= ' ' . $attr . '="' . $value . '"';
             }
         }
@@ -456,6 +461,7 @@ class My_Menu extends Walker_Nav_Menu{
         $output .= "</li>{$n}";
     }
 }
+
 
 
 

@@ -9,7 +9,7 @@ get_header();
                 <?php
                 $Properties=[
                     'numberposts' => 5,
-                    'category_name' => 'home',
+                    'category_name' => 'news',
                     'orderby' => 'date',
                     'order' => 'DESC',
                     'include' => array(),
@@ -32,6 +32,11 @@ get_header();
                 //                'suppress_filters' => true,
                 //            ];
 
+                /*
+                 * <h1><?php echo $data->post_title?></h1>
+                 *  <?php echo $data->post_content ?>
+                */
+
                 $dates = get_posts($Properties);
 
                 foreach ($dates as $data) :
@@ -39,9 +44,9 @@ get_header();
                     ?>
 
                 <div class="block-new">
-                    <a href="#"><img src="<?php echo get_the_post_thumbnail_url($data->ID,[52,52]); ?>" alt="<?php echo $data->post_title?>"></a>
+                    <a href="<?php echo get_post_permalink($data->ID);?>"><img src="<?php echo get_the_post_thumbnail_url($data->ID,[52,52]); ?>" alt="<?php echo $data->post_title?>"></a>
                     <div class="block-new-info">
-                        <h3><a href="#"><?php echo $data->post_title; ?></a></h3>
+                        <h3><a href="<?php echo get_post_permalink($data->ID);?>"><?php echo $data->post_title; ?></a></h3>
                         <?php echo substr(strip_tags($data->post_content),0,130).'...'; ?>
                     </div>
                 </div>
@@ -50,125 +55,7 @@ get_header();
                 wp_reset_postdata(); ?>
 
             </div>
-            <div class="sidebar">
-                <div class="block-sid">
-                    <div class="box-icons">
-                        <a href="#"><img src="images/icon-facebook.png" alt=""></a>
-                        <a href="#"><img src="images/icon-twitter.png" alt=""></a>
-                        <a href="#"><img src="images/icon-urbanspoon.png" alt=""></a>
-                    </div>
-                    <div class="title-follow_us">Follow us</div>
-                </div>
-                <div class="block-sid">
-                    <div class="title-make_a_reservation">Make a reservation</div>
-                    <div class="title-make_a_reservation_2"><cufon class="cufon cufon-canvas" alt="Make " style="width: 74px; height: 31px;"><canvas width="87" height="33" style="width: 87px; height: 33px; top: -2px; left: -1px;"></canvas><cufontext>Make </cufontext></cufon><cufon class="cufon cufon-canvas" alt="a " style="width: 25px; height: 31px;"><canvas width="39" height="33" style="width: 39px; height: 33px; top: -2px; left: -1px;"></canvas><cufontext>a </cufontext></cufon><cufon class="cufon cufon-canvas" alt="reservation" style="width: 161px; height: 31px;"><canvas width="168" height="33" style="width: 168px; height: 33px; top: -2px; left: -1px;"></canvas><cufontext>reservation</cufontext></cufon></div>
-                    <form class="form-sid" action="" method="post">
-                        <div class="box-line">
-                            <p class="label"><label for="name">name</label><input id="name" type="text" value=""></p>
-                            <p class="label"><label style="left: 28px; opacity: 1;" for="date">date</label><input id="date" type="text" value=""></p>
-
-                            <script type="text/javascript">
-                                jQuery(document).ready(function(){
-                                    Calendar.setup
-                                    ({
-                                        ifFormat    : "%d-%m-%Y",
-                                        inputField  : "date", // ID of the input field
-                                        button      : "date"      // ID of the button,
-                                    });
-                                })
-                            </script>
-
-                        </div>
-                        <div class="box-line">
-                            <p class="label"><label for="phone">phone</label><input id="phone" type="text" value=""></p>
-                            <p class="label"><label style="left: 28px;" for="time">time</label><input id="time" type="text" value=""></p>
-                        </div>
-                        <div class="box-line">
-                            <p class="label"><label for="email">email</label><input id="email" type="text" value=""></p>
-                        </div>
-                        <div class="box-line">
-                            <p class="label"><label for="mes">Number of people and special<br> requirements...</label><textarea id="mes" cols="10" rows="10"></textarea></p>
-                        </div>
-                        <label class="sub"><input type="submit" value=""></label>
-                    </form>
-                </div>
-                <div class="block-sid">
-                    <div class="box-icons">
-                        <a href="#"><img src="images/icon-pdf.png" alt=""></a>
-                    </div>
-                    <div class="title-functions_package">Functions package</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-   <div   class="wrapper">
-        <div class="wrapper-in">
-            <div class="content">
-
-                <?php
-                $dates = get_posts($Properties);
-                foreach ($dates as $data) :
-                    setup_postdata($data);
-                    ?>
-
-                    <h1><?php echo $data->post_title?></h1>
-                    <?php echo $data->post_content ?>
-
-                <?php endforeach;
-                wp_reset_postdata(); ?>
-
-            </div>
-            <div class="sidebar">
-                <div class="block-sid">
-                    <div class="box-icons">
-                        <a href="#"><img src="images/icon-facebook.png" alt=""></a>
-                        <a href="#"><img src="images/icon-twitter.png" alt=""></a>
-                        <a href="#"><img src="images/icon-urbanspoon.png" alt=""></a>
-                    </div>
-                    <div class="title-follow_us">Follow us</div>
-                </div>
-                <div class="block-sid">
-                    <div class="box-icons">
-                        <a href="#"><img src="images/icon-pdf.png" alt=""></a>
-                    </div>
-                    <div class="title-functions_package">Functions package</div>
-                </div>
-                <div class="block-sid">
-                    <div class="title-make_a_reservation">Make a reservation</div>
-                    <form class="form-sid" action="" method="post">
-                        <div class="box-line">
-                            <p class="label"><label for="name">name</label><input id="name" type="text" value=""></p>
-                            <p class="label"><label style="left: 28px;" for="date">date</label><input id="date" type="text" value=""></p>
-
-                            <script type="text/javascript">
-                                jQuery(document).ready(function(){
-                                    Calendar.setup
-                                    ({
-                                        ifFormat    : "%d-%m-%Y",
-                                        inputField  : "date", // ID of the input field
-                                        button      : "date"      // ID of the button,
-                                    });
-                                })
-                            </script>
-
-                        </div>
-                        <div class="box-line">
-                            <p class="label"><label for="phone">phone</label><input id="phone" type="text" value=""></p>
-                            <p class="label"><label style="left: 28px;" for="time">time</label><input id="time" type="text" value=""></p>
-                        </div>
-                        <div class="box-line">
-                            <p class="label"><label for="email">email</label><input id="email" type="text" value=""></p>
-                        </div>
-                        <div class="box-line">
-                            <p class="label"><label for="mes">Number of people and special<br> requirements...</label><textarea id="mes" cols="10" rows="10"></textarea></p>
-                        </div>
-                        <label class="sub"><input type="submit" value=""></label>
-                    </form>
-                </div>
-            </div>
+            <?php get_sidebar();?>
         </div>
     </div>
 
