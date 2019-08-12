@@ -28,13 +28,10 @@ get_header();
                     ?>
 
                 <div class="block-new">
-                    <a href="#"><img src="<?php echo get_the_post_thumbnail_url($post->ID,[52,52]); ?>" alt=""></a>
+                    <a href="#"><img src="<?php echo get_the_post_thumbnail_url($post->ID,[52,52]); ?>" alt="<?php echo $post->post_title?>"></a>
                     <div class="block-new-info">
                         <h3><a href="#"> <?php echo $post->post_title; ?></a></h3>
-                        <?php
-                            $ct=preg_replace('#<?php [{\w},\s\d"]+ ?>#','',$post->post_content);
-                        echo substr($ct,0,130).'...';
-                        ?>
+                        <?php echo substr(strip_tags($post->post_content),0,130).'...'; ?>
                     </div>
                 </div>
 
