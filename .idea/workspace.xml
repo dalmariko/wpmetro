@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36f4efe9-1ebd-4b9b-8625-b8c569258cb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
-    </list>
+    <list default="true" id="36f4efe9-1ebd-4b9b-8625-b8c569258cb5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,68 +18,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="e#1422#4958#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-              <folding>
-                <element signature="e#6870#6996#0#PHP" expanded="false" />
-                <element signature="e#7070#7223#0#PHP" expanded="false" />
-                <element signature="e#7248#7329#0#PHP" expanded="false" />
-                <element signature="e#7336#7700#0#PHP" expanded="false" />
-                <element signature="e#7782#7971#0#PHP" expanded="false" />
-                <element signature="e#7909#7971#0#PHP" expanded="false" />
-                <element signature="e#8090#8476#0#PHP" expanded="false" />
-                <element signature="e#8741#9103#0#PHP" expanded="false" />
-                <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
-                <element signature="e#9183#9372#0#PHP" expanded="false" />
-                <element signature="e#9310#9372#0#PHP" expanded="false" />
-                <element signature="e#9468#9983#0#PHP" expanded="false" />
-                <element signature="e#10080#10269#0#PHP" expanded="false" />
-                <element signature="e#10207#10269#0#PHP" expanded="false" />
-                <element signature="e#10472#10795#0#PHP" expanded="false" />
-                <element signature="e#10882#11400#0#PHP" expanded="false" />
-                <element signature="e#11660#12150#0#PHP" expanded="false" />
-                <element signature="e#12572#12746#0#PHP" expanded="false" />
-                <element signature="e#12691#12746#0#PHP" expanded="false" />
-                <element signature="e#12954#13826#0#PHP" expanded="false" />
-                <element signature="e#14401#14760#0#PHP" expanded="false" />
-                <element signature="e#15090#15779#0#PHP" expanded="false" />
-                <element signature="e#15891#16287#0#PHP" expanded="false" />
-                <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
-                <element signature="e#16373#16562#0#PHP" expanded="false" />
-                <element signature="e#16500#16562#0#PHP" expanded="false" />
-                <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="417">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -302,12 +237,12 @@
       <workItem from="1565485701721" duration="317000" />
       <workItem from="1565527422512" duration="1548000" />
       <workItem from="1565543807929" duration="21680000" />
-      <workItem from="1565597326134" duration="6908000" />
+      <workItem from="1565597326134" duration="7063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37093000" />
+    <option name="totallyTimeSpent" value="37248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1280" height="990" extended-state="7" />
@@ -366,9 +301,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#1422#4958#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -384,35 +317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2715">
           <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <element signature="e#6870#6996#0#PHP" expanded="false" />
-            <element signature="e#7070#7223#0#PHP" expanded="false" />
-            <element signature="e#7248#7329#0#PHP" expanded="false" />
-            <element signature="e#7336#7700#0#PHP" expanded="false" />
-            <element signature="e#7782#7971#0#PHP" expanded="false" />
-            <element signature="e#7909#7971#0#PHP" expanded="false" />
-            <element signature="e#8090#8476#0#PHP" expanded="false" />
-            <element signature="e#8741#9103#0#PHP" expanded="false" />
-            <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
-            <element signature="e#9183#9372#0#PHP" expanded="false" />
-            <element signature="e#9310#9372#0#PHP" expanded="false" />
-            <element signature="e#9468#9983#0#PHP" expanded="false" />
-            <element signature="e#10080#10269#0#PHP" expanded="false" />
-            <element signature="e#10207#10269#0#PHP" expanded="false" />
-            <element signature="e#10472#10795#0#PHP" expanded="false" />
-            <element signature="e#10882#11400#0#PHP" expanded="false" />
-            <element signature="e#11660#12150#0#PHP" expanded="false" />
-            <element signature="e#12572#12746#0#PHP" expanded="false" />
-            <element signature="e#12691#12746#0#PHP" expanded="false" />
-            <element signature="e#12954#13826#0#PHP" expanded="false" />
-            <element signature="e#14401#14760#0#PHP" expanded="false" />
-            <element signature="e#15090#15779#0#PHP" expanded="false" />
-            <element signature="e#15891#16287#0#PHP" expanded="false" />
-            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
-            <element signature="e#16373#16562#0#PHP" expanded="false" />
-            <element signature="e#16500#16562#0#PHP" expanded="false" />
-            <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -436,9 +341,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1422#4958#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -454,35 +357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6870#6996#0#PHP" expanded="false" />
-            <element signature="e#7070#7223#0#PHP" expanded="false" />
-            <element signature="e#7248#7329#0#PHP" expanded="false" />
-            <element signature="e#7336#7700#0#PHP" expanded="false" />
-            <element signature="e#7782#7971#0#PHP" expanded="false" />
-            <element signature="e#7909#7971#0#PHP" expanded="false" />
-            <element signature="e#8090#8476#0#PHP" expanded="false" />
-            <element signature="e#8741#9103#0#PHP" expanded="false" />
-            <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
-            <element signature="e#9183#9372#0#PHP" expanded="false" />
-            <element signature="e#9310#9372#0#PHP" expanded="false" />
-            <element signature="e#9468#9983#0#PHP" expanded="false" />
-            <element signature="e#10080#10269#0#PHP" expanded="false" />
-            <element signature="e#10207#10269#0#PHP" expanded="false" />
-            <element signature="e#10472#10795#0#PHP" expanded="false" />
-            <element signature="e#10882#11400#0#PHP" expanded="false" />
-            <element signature="e#11660#12150#0#PHP" expanded="false" />
-            <element signature="e#12572#12746#0#PHP" expanded="false" />
-            <element signature="e#12691#12746#0#PHP" expanded="false" />
-            <element signature="e#12954#13826#0#PHP" expanded="false" />
-            <element signature="e#14401#14760#0#PHP" expanded="false" />
-            <element signature="e#15090#15779#0#PHP" expanded="false" />
-            <element signature="e#15891#16287#0#PHP" expanded="false" />
-            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
-            <element signature="e#16373#16562#0#PHP" expanded="false" />
-            <element signature="e#16500#16562#0#PHP" expanded="false" />
-            <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -497,9 +372,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1422#4958#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,35 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-          <folding>
-            <element signature="e#6870#6996#0#PHP" expanded="false" />
-            <element signature="e#7070#7223#0#PHP" expanded="false" />
-            <element signature="e#7248#7329#0#PHP" expanded="false" />
-            <element signature="e#7336#7700#0#PHP" expanded="false" />
-            <element signature="e#7782#7971#0#PHP" expanded="false" />
-            <element signature="e#7909#7971#0#PHP" expanded="false" />
-            <element signature="e#8090#8476#0#PHP" expanded="false" />
-            <element signature="e#8741#9103#0#PHP" expanded="false" />
-            <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
-            <element signature="e#9183#9372#0#PHP" expanded="false" />
-            <element signature="e#9310#9372#0#PHP" expanded="false" />
-            <element signature="e#9468#9983#0#PHP" expanded="false" />
-            <element signature="e#10080#10269#0#PHP" expanded="false" />
-            <element signature="e#10207#10269#0#PHP" expanded="false" />
-            <element signature="e#10472#10795#0#PHP" expanded="false" />
-            <element signature="e#10882#11400#0#PHP" expanded="false" />
-            <element signature="e#11660#12150#0#PHP" expanded="false" />
-            <element signature="e#12572#12746#0#PHP" expanded="false" />
-            <element signature="e#12691#12746#0#PHP" expanded="false" />
-            <element signature="e#12954#13826#0#PHP" expanded="false" />
-            <element signature="e#14401#14760#0#PHP" expanded="false" />
-            <element signature="e#15090#15779#0#PHP" expanded="false" />
-            <element signature="e#15891#16287#0#PHP" expanded="false" />
-            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
-            <element signature="e#16373#16562#0#PHP" expanded="false" />
-            <element signature="e#16500#16562#0#PHP" expanded="false" />
-            <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,11 +686,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#1422#4958#0#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="417">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
