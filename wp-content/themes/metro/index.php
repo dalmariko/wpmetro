@@ -109,36 +109,30 @@ get_header();
 <a name="contact/"></a>
     <div   class="wrapper">
         <div class="wrapper-in">
+
+            <?php
+
+            $contacts = get_posts(array(
+                'numberposts' => 1,
+                'category_name' => 'contact',
+                'orderby' => 'date',
+                'order' => 'DESC',
+                'include' => array(),
+                'exclude' => array(),
+                'meta_key' => '',
+                'meta_value' => '',
+                'post_type' => 'post',
+                'suppress_filters' => true,
+            ));
+
+            foreach ($contacts as $contact) :
+            setup_postdata($contact);
+            ?>
             <div class="content">
-                <h1>Contact</h1>
-                <p><b>Email:</b> publican@metrohotel.com.au<br> <b>Phone:</b> (03) 9328 4222<br> <b>Fax:</b> (03) 9328 4288</p>
-                <h3>OPENING TIMES</h3>
-                <p><b>Kitchen:</b><br> Mon – Thu 12pm-2pm, 6-9pm;<br> Fri 12pm-3pm, 6pm-9pm<br> Sat 6pm-9pm<br> <b>Bar:</b> Daily 11.30am-late<br> <b>Closed:</b> Sundays</p>
-                <h3>ADDRESS</h3>
-                <p>36-42 Courtney St,<br> (Cnr Blackwood St)<br> North Melbourne 3051<br> Victoria</p>
 
-
-                <?php
-
-                $contacts = get_posts(array(
-                    'numberposts' => 1,
-                    'category_name' => 'contact',
-                    'orderby' => 'date',
-                    'order' => 'DESC',
-                    'include' => array(),
-                    'exclude' => array(),
-                    'meta_key' => '',
-                    'meta_value' => '',
-                    'post_type' => 'post',
-                    'suppress_filters' => true,
-                ));
-
-                foreach ($contacts as $contact) :
-                    setup_postdata($contact);
-                    ?>
-                <div class="box-img-map">
+                    <h1><?php echo $contact->post_title?></h1>
                       <?php echo $contact->post_content ?>
-                </div>
+
                 <?php endforeach;
                 wp_reset_postdata(); ?>
 
