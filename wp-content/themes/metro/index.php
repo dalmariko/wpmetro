@@ -3,14 +3,11 @@ get_header();
 ?>
 
 
-<!--HOME-->
-<a name="home/"></a>
     <div class="wrapper" >
         <div class="wrapper-in">
             <div class="content">
                 <?php
-
-                $posts = get_posts(array(
+                $Properties=[
                     'numberposts' => 5,
                     'category_name' => 'home',
                     'orderby' => 'date',
@@ -20,18 +17,32 @@ get_header();
                     'meta_key' => '',
                     'meta_value' => '',
                     'post_type' => 'post',
-                    'suppress_filters' => true,
-                ));
+                    'suppress_filters' => true
+                ];
+                //            $Properties=[
+                //                'numberposts' => 1,
+                //                'category_name' => 'contact',
+                //                'orderby' => 'date',
+                //                'order' => 'DESC',
+                //                'include' => array(),
+                //                'exclude' => array(),
+                //                'meta_key' => '',
+                //                'meta_value' => '',
+                //                'post_type' => 'post',
+                //                'suppress_filters' => true,
+                //            ];
 
-                foreach ($posts as $post) :
-                    setup_postdata($post);
+                $dates = get_posts($Properties);
+
+                foreach ($dates as $data) :
+                    setup_postdata($data);
                     ?>
 
                 <div class="block-new">
-                    <a href="#"><img src="<?php echo get_the_post_thumbnail_url($post->ID,[52,52]); ?>" alt="<?php echo $post->post_title?>"></a>
+                    <a href="#"><img src="<?php echo get_the_post_thumbnail_url($data->ID,[52,52]); ?>" alt="<?php echo $data->post_title?>"></a>
                     <div class="block-new-info">
-                        <h3><a href="#"> <?php echo $post->post_title; ?></a></h3>
-                        <?php echo substr(strip_tags($post->post_content),0,130).'...'; ?>
+                        <h3><a href="#"><?php echo $data->post_title; ?></a></h3>
+                        <?php echo substr(strip_tags($data->post_content),0,130).'...'; ?>
                     </div>
                 </div>
 
@@ -91,47 +102,20 @@ get_header();
         </div>
     </div>
 
-<!--END HOME-->
-
-<!--MENU-->
-
-<!--END MENU-->
 
 
-<!--FUNCTIONS-->
-
-
-<!--END FUNCTIONS-->
-
-<!--CONTACT-->
-
-
-<a name="contact/"></a>
-    <div   class="wrapper">
+   <div   class="wrapper">
         <div class="wrapper-in">
-
-            <?php
-
-            $contacts = get_posts(array(
-                'numberposts' => 1,
-                'category_name' => 'contact',
-                'orderby' => 'date',
-                'order' => 'DESC',
-                'include' => array(),
-                'exclude' => array(),
-                'meta_key' => '',
-                'meta_value' => '',
-                'post_type' => 'post',
-                'suppress_filters' => true,
-            ));
-
-            foreach ($contacts as $contact) :
-            setup_postdata($contact);
-            ?>
             <div class="content">
 
-                    <h1><?php echo $contact->post_title?></h1>
-                      <?php echo $contact->post_content ?>
+                <?php
+                $dates = get_posts($Properties);
+                foreach ($dates as $data) :
+                    setup_postdata($data);
+                    ?>
+
+                    <h1><?php echo $data->post_title?></h1>
+                    <?php echo $data->post_content ?>
 
                 <?php endforeach;
                 wp_reset_postdata(); ?>
@@ -189,14 +173,6 @@ get_header();
     </div>
 
 
-
-
-<!--END CONTACT-->
-
-
-
-
-
-
 <?php
 get_footer();
+?>

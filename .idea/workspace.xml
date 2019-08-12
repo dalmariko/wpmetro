@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36f4efe9-1ebd-4b9b-8625-b8c569258cb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/404.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,54 +18,73 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/404.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="392" column="87" lean-forward="false" selection-start-line="392" selection-start-column="87" selection-end-line="392" selection-end-column="87" />
+            <state relative-caret-position="341">
+              <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding>
+                <element signature="e#191#489#0#PHP" expanded="false" />
+                <element signature="e#518#777#0#PHP" expanded="false" />
+                <element signature="e#966#1190#0#PHP" expanded="false" />
+                <element signature="e#1230#1400#0#PHP" expanded="false" />
+                <element signature="e#1498#1579#0#PHP" expanded="false" />
+                <element signature="e#1518#1577#1#PHP" expanded="false" />
+                <element signature="e#1584#1696#0#PHP" expanded="false" />
+                <element signature="e#1699#1823#0#PHP" expanded="false" />
+                <element signature="e#1727#1821#0#PHP" expanded="false" />
+                <element signature="e#1886#2045#0#PHP" expanded="false" />
+                <element signature="e#1926#2043#0#PHP" expanded="false" />
+                <element signature="e#1973#2041#0#PHP" expanded="false" />
+                <element signature="e#2171#2274#0#PHP" expanded="false" />
+                <element signature="e#2277#2425#0#PHP" expanded="false" />
+                <element signature="e#2311#2423#0#PHP" expanded="false" />
+                <element signature="e#2488#2675#0#PHP" expanded="false" />
+                <element signature="n#metro_content_width#0;n#!!top" expanded="false" />
+                <element signature="e#3108#3237#0#PHP" expanded="false" />
+                <element signature="n#metro_widgets_init#0;n#!!top" expanded="false" />
+                <element signature="e#3690#3728#0#PHP" expanded="false" />
+                <element signature="n#metro_scripts#0;n#!!top" expanded="false" />
+                <element signature="e#5678#5803#0#PHP" expanded="false" />
+                <element signature="e#6134#6181#0#PHP" expanded="false" />
+                <element signature="e#6244#6291#0#PHP" expanded="false" />
+                <element signature="e#6354#6425#0#PHP" expanded="false" />
+                <element signature="e#6493#6525#0#PHP" expanded="false" />
+                <element signature="e#6585#6628#0#PHP" expanded="false" />
+                <element signature="e#6629#6725#0#PHP" expanded="false" />
+                <element signature="e#6729#6822#0#PHP" expanded="false" />
+                <element signature="n#My_Menu#0;n#!!top" expanded="false" />
+                <element signature="e#6870#6996#0#PHP" expanded="false" />
+                <element signature="e#7070#7223#0#PHP" expanded="false" />
+                <element signature="e#7248#7329#0#PHP" expanded="false" />
+                <element signature="e#7336#7700#0#PHP" expanded="false" />
+                <element signature="n#start_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+                <element signature="e#7782#7971#0#PHP" expanded="false" />
+                <element signature="e#7909#7971#0#PHP" expanded="false" />
+                <element signature="e#8090#8476#0#PHP" expanded="false" />
+                <element signature="e#8741#9103#0#PHP" expanded="false" />
+                <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+                <element signature="e#9183#9372#0#PHP" expanded="false" />
+                <element signature="e#9310#9372#0#PHP" expanded="false" />
+                <element signature="e#9468#9983#0#PHP" expanded="false" />
+                <element signature="n#start_el#0;n#My_Menu#0;n#!!top" expanded="false" />
+                <element signature="e#10080#10269#0#PHP" expanded="false" />
+                <element signature="e#10207#10269#0#PHP" expanded="false" />
+                <element signature="e#10472#10795#0#PHP" expanded="false" />
+                <element signature="e#10882#11400#0#PHP" expanded="false" />
+                <element signature="e#11660#12150#0#PHP" expanded="false" />
+                <element signature="e#12572#12746#0#PHP" expanded="false" />
+                <element signature="e#12691#12746#0#PHP" expanded="false" />
                 <element signature="e#12954#13826#0#PHP" expanded="false" />
+                <element signature="e#13952#14244#0#PHP" expanded="false" />
+                <element signature="e#14003#14234#0#PHP" expanded="false" />
+                <element signature="e#14401#14760#0#PHP" expanded="false" />
+                <element signature="e#15090#15779#0#PHP" expanded="false" />
+                <element signature="e#15891#16287#0#PHP" expanded="false" />
+                <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
+                <element signature="e#16373#16562#0#PHP" expanded="false" />
+                <element signature="e#16500#16562#0#PHP" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,9 +109,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/metro/footer.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/404.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
       </list>
     </option>
@@ -193,6 +211,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro.info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro.info" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template-parts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -289,24 +333,24 @@
       <workItem from="1565543807929" duration="21680000" />
       <workItem from="1565597326134" duration="10602000" />
       <workItem from="1565609740784" duration="5012000" />
-      <workItem from="1565617438034" duration="403000" />
+      <workItem from="1565617438034" duration="3144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46202000" />
+    <option name="totallyTimeSpent" value="48943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1280" height="990" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25892857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22402598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -351,51 +395,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
           <folding>
-            <element signature="e#12954#13826#0#PHP" expanded="false" />
+            <element signature="e#169#607#0#PHP" expanded="false" />
+            <element signature="e#625#652#0#PHP" expanded="false" />
+            <element signature="e#1976#5512#0#HTML" expanded="false" />
+            <element signature="e#6040#8843#0#HTML" expanded="false" />
+            <element signature="e#7216#7235#0#HTML" expanded="true" />
+            <element signature="e#8125#8144#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="183" column="24" lean-forward="false" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -412,7 +421,66 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#191#489#0#PHP" expanded="false" />
+            <element signature="e#518#777#0#PHP" expanded="false" />
+            <element signature="e#966#1190#0#PHP" expanded="false" />
+            <element signature="e#1230#1400#0#PHP" expanded="false" />
+            <element signature="e#1498#1579#0#PHP" expanded="false" />
+            <element signature="e#1518#1577#1#PHP" expanded="false" />
+            <element signature="e#1584#1696#0#PHP" expanded="false" />
+            <element signature="e#1699#1823#0#PHP" expanded="false" />
+            <element signature="e#1727#1821#0#PHP" expanded="false" />
+            <element signature="e#1886#2045#0#PHP" expanded="false" />
+            <element signature="e#1926#2043#0#PHP" expanded="false" />
+            <element signature="e#1973#2041#0#PHP" expanded="false" />
+            <element signature="e#2171#2274#0#PHP" expanded="false" />
+            <element signature="e#2277#2425#0#PHP" expanded="false" />
+            <element signature="e#2311#2423#0#PHP" expanded="false" />
+            <element signature="e#2488#2675#0#PHP" expanded="false" />
+            <element signature="n#metro_content_width#0;n#!!top" expanded="false" />
+            <element signature="e#3108#3237#0#PHP" expanded="false" />
+            <element signature="n#metro_widgets_init#0;n#!!top" expanded="false" />
+            <element signature="e#3690#3728#0#PHP" expanded="false" />
+            <element signature="n#metro_scripts#0;n#!!top" expanded="false" />
+            <element signature="e#5678#5803#0#PHP" expanded="false" />
+            <element signature="e#6134#6181#0#PHP" expanded="false" />
+            <element signature="e#6244#6291#0#PHP" expanded="false" />
+            <element signature="e#6354#6425#0#PHP" expanded="false" />
+            <element signature="e#6493#6525#0#PHP" expanded="false" />
+            <element signature="e#6585#6628#0#PHP" expanded="false" />
+            <element signature="e#6629#6725#0#PHP" expanded="false" />
+            <element signature="e#6729#6822#0#PHP" expanded="false" />
+            <element signature="n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#6870#6996#0#PHP" expanded="false" />
+            <element signature="e#7070#7223#0#PHP" expanded="false" />
+            <element signature="e#7248#7329#0#PHP" expanded="false" />
+            <element signature="e#7336#7700#0#PHP" expanded="false" />
+            <element signature="n#start_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#7782#7971#0#PHP" expanded="false" />
+            <element signature="e#7909#7971#0#PHP" expanded="false" />
+            <element signature="e#8090#8476#0#PHP" expanded="false" />
+            <element signature="e#8741#9103#0#PHP" expanded="false" />
+            <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#9183#9372#0#PHP" expanded="false" />
+            <element signature="e#9310#9372#0#PHP" expanded="false" />
+            <element signature="e#9468#9983#0#PHP" expanded="false" />
+            <element signature="n#start_el#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#10080#10269#0#PHP" expanded="false" />
+            <element signature="e#10207#10269#0#PHP" expanded="false" />
+            <element signature="e#10472#10795#0#PHP" expanded="false" />
+            <element signature="e#10882#11400#0#PHP" expanded="false" />
+            <element signature="e#11660#12150#0#PHP" expanded="false" />
+            <element signature="e#12572#12746#0#PHP" expanded="false" />
+            <element signature="e#12691#12746#0#PHP" expanded="false" />
             <element signature="e#12954#13826#0#PHP" expanded="false" />
+            <element signature="e#13952#14244#0#PHP" expanded="false" />
+            <element signature="e#14003#14234#0#PHP" expanded="false" />
+            <element signature="e#14401#14760#0#PHP" expanded="false" />
+            <element signature="e#15090#15779#0#PHP" expanded="false" />
+            <element signature="e#15891#16287#0#PHP" expanded="false" />
+            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#16373#16562#0#PHP" expanded="false" />
+            <element signature="e#16500#16562#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -428,7 +496,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#169#607#0#PHP" expanded="false" />
+            <element signature="e#625#652#0#PHP" expanded="false" />
+            <element signature="e#1976#5512#0#HTML" expanded="false" />
+            <element signature="e#6040#8843#0#HTML" expanded="false" />
+            <element signature="e#7216#7235#0#HTML" expanded="true" />
+            <element signature="e#8125#8144#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,6 +729,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2744">
           <caret line="1924" column="9" lean-forward="false" selection-start-line="1924" selection-start-column="9" selection-end-line="1924" selection-end-column="9" />
+          <folding>
+            <marker date="1555446651000" expanded="true" signature="66289:66305" ph="Insert into post... " />
+            <marker date="1555446651000" expanded="true" signature="66315:66331" ph="Insert into page... " />
+            <marker date="1555446651000" expanded="true" signature="94941:95025" ph="SELECT post_... $" />
+            <marker date="1555446651000" expanded="true" signature="96970:97121" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="97291:97384" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="103291:103331" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="104817:104885" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="105216:105293" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="105750:105815" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1555446651000" expanded="true" signature="106009:106063" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1555446651000" expanded="true" signature="111393:111476" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1555446651000" expanded="true" signature="113448:113531" ph="UPDATE ${$wp... " />
+            <marker date="1555446651000" expanded="true" signature="134813:134854" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="147731:147807" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="148894:149029" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="150154:150249" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="164830:164882" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="167555:167695" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="169563:169661" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="169730:169807" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="182101:182159" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="186902:186942" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="188157:188222" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1555446651000" expanded="true" signature="188417:188471" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1555446651000" expanded="true" signature="189681:189800" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1555446651000" expanded="true" signature="214718:214863" ph="SELECT post_... " />
+            <marker date="1555446651000" expanded="true" signature="214921:215062" ph="SELECT post_... " />
+            <marker date="1555446651000" expanded="true" signature="215174:215368" ph="SELECT DATE_... " />
+            <marker date="1555446651000" expanded="true" signature="226526:226636" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="229158:229214" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="232418:232487" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,6 +769,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="211" column="9" lean-forward="false" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -704,12 +805,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="122" column="18" lean-forward="true" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+          <folding>
+            <element signature="e#169#607#0#PHP" expanded="false" />
+            <element signature="e#625#652#0#PHP" expanded="false" />
+            <element signature="e#1976#5512#0#HTML" expanded="false" />
+            <element signature="e#6040#8843#0#HTML" expanded="false" />
+            <element signature="e#7216#7235#0#HTML" expanded="true" />
+            <element signature="e#8125#8144#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/inc/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/inc/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/inc/jetpack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/inc/template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="392" column="87" lean-forward="false" selection-start-line="392" selection-start-column="87" selection-end-line="392" selection-end-column="87" />
+        <state relative-caret-position="341">
+          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
+            <element signature="e#191#489#0#PHP" expanded="false" />
+            <element signature="e#518#777#0#PHP" expanded="false" />
+            <element signature="e#966#1190#0#PHP" expanded="false" />
+            <element signature="e#1230#1400#0#PHP" expanded="false" />
+            <element signature="e#1498#1579#0#PHP" expanded="false" />
+            <element signature="e#1518#1577#1#PHP" expanded="false" />
+            <element signature="e#1584#1696#0#PHP" expanded="false" />
+            <element signature="e#1699#1823#0#PHP" expanded="false" />
+            <element signature="e#1727#1821#0#PHP" expanded="false" />
+            <element signature="e#1886#2045#0#PHP" expanded="false" />
+            <element signature="e#1926#2043#0#PHP" expanded="false" />
+            <element signature="e#1973#2041#0#PHP" expanded="false" />
+            <element signature="e#2171#2274#0#PHP" expanded="false" />
+            <element signature="e#2277#2425#0#PHP" expanded="false" />
+            <element signature="e#2311#2423#0#PHP" expanded="false" />
+            <element signature="e#2488#2675#0#PHP" expanded="false" />
+            <element signature="n#metro_content_width#0;n#!!top" expanded="false" />
+            <element signature="e#3108#3237#0#PHP" expanded="false" />
+            <element signature="n#metro_widgets_init#0;n#!!top" expanded="false" />
+            <element signature="e#3690#3728#0#PHP" expanded="false" />
+            <element signature="n#metro_scripts#0;n#!!top" expanded="false" />
+            <element signature="e#5678#5803#0#PHP" expanded="false" />
+            <element signature="e#6134#6181#0#PHP" expanded="false" />
+            <element signature="e#6244#6291#0#PHP" expanded="false" />
+            <element signature="e#6354#6425#0#PHP" expanded="false" />
+            <element signature="e#6493#6525#0#PHP" expanded="false" />
+            <element signature="e#6585#6628#0#PHP" expanded="false" />
+            <element signature="e#6629#6725#0#PHP" expanded="false" />
+            <element signature="e#6729#6822#0#PHP" expanded="false" />
+            <element signature="n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#6870#6996#0#PHP" expanded="false" />
+            <element signature="e#7070#7223#0#PHP" expanded="false" />
+            <element signature="e#7248#7329#0#PHP" expanded="false" />
+            <element signature="e#7336#7700#0#PHP" expanded="false" />
+            <element signature="n#start_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#7782#7971#0#PHP" expanded="false" />
+            <element signature="e#7909#7971#0#PHP" expanded="false" />
+            <element signature="e#8090#8476#0#PHP" expanded="false" />
+            <element signature="e#8741#9103#0#PHP" expanded="false" />
+            <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#9183#9372#0#PHP" expanded="false" />
+            <element signature="e#9310#9372#0#PHP" expanded="false" />
+            <element signature="e#9468#9983#0#PHP" expanded="false" />
+            <element signature="n#start_el#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#10080#10269#0#PHP" expanded="false" />
+            <element signature="e#10207#10269#0#PHP" expanded="false" />
+            <element signature="e#10472#10795#0#PHP" expanded="false" />
+            <element signature="e#10882#11400#0#PHP" expanded="false" />
+            <element signature="e#11660#12150#0#PHP" expanded="false" />
+            <element signature="e#12572#12746#0#PHP" expanded="false" />
+            <element signature="e#12691#12746#0#PHP" expanded="false" />
             <element signature="e#12954#13826#0#PHP" expanded="false" />
+            <element signature="e#13952#14244#0#PHP" expanded="false" />
+            <element signature="e#14003#14234#0#PHP" expanded="false" />
+            <element signature="e#14401#14760#0#PHP" expanded="false" />
+            <element signature="e#15090#15779#0#PHP" expanded="false" />
+            <element signature="e#15891#16287#0#PHP" expanded="false" />
+            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#16373#16562#0#PHP" expanded="false" />
+            <element signature="e#16500#16562#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
