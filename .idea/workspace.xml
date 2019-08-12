@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36f4efe9-1ebd-4b9b-8625-b8c569258cb5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/metro/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
     </list>
@@ -21,23 +20,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="585">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <element signature="e#118#2192#0#HTML" expanded="false" />
-                <element signature="e#2205#5741#0#HTML" expanded="false" />
-                <element signature="e#2908#2942#0#HTML" expanded="true" />
-                <element signature="e#2974#3031#0#HTML" expanded="true" />
-                <element signature="e#3120#3154#0#HTML" expanded="true" />
-                <element signature="e#3186#3243#0#HTML" expanded="true" />
-                <element signature="e#3338#3373#0#HTML" expanded="true" />
-                <element signature="e#3406#3464#0#HTML" expanded="true" />
-                <element signature="e#3808#3839#0#HTML" expanded="true" />
-                <element signature="e#3935#4476#0#HTML" expanded="false" />
-                <element signature="e#4729#4748#0#HTML" expanded="true" />
+                <element signature="e#1422#4958#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,18 +35,18 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="361" column="38" lean-forward="false" selection-start-line="361" selection-start-column="38" selection-end-line="361" selection-end-column="38" />
+            <state relative-caret-position="252">
+              <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
               <folding>
                 <element signature="e#6870#6996#0#PHP" expanded="false" />
                 <element signature="e#7070#7223#0#PHP" expanded="false" />
@@ -106,6 +95,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>nav</find>
+      <find>h</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,11 +108,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/metro/css/font/specimen_files/easytabs.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/readme.txt" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/metro/header.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/metro/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/metro/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/metro/css/main.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/metro/index.php" />
       </list>
     </option>
   </component>
@@ -153,8 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,6 +168,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro.info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro.info" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro.info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro.info" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,22 +301,22 @@
       <workItem from="1565478980940" duration="6536000" />
       <workItem from="1565485701721" duration="317000" />
       <workItem from="1565527422512" duration="1548000" />
-      <workItem from="1565543807929" duration="17686000" />
+      <workItem from="1565543807929" duration="21680000" />
+      <workItem from="1565597326134" duration="6908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26191000" />
+    <option name="totallyTimeSpent" value="37093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="1280" height="990" extended-state="6" />
+    <frame x="0" y="34" width="1280" height="990" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22727273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -297,6 +327,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -331,38 +362,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="182" column="16" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="e#118#2192#0#HTML" expanded="false" />
-            <element signature="e#2205#5741#0#HTML" expanded="false" />
-            <element signature="e#2908#2942#0#HTML" expanded="true" />
-            <element signature="e#2974#3031#0#HTML" expanded="true" />
-            <element signature="e#3120#3154#0#HTML" expanded="true" />
-            <element signature="e#3186#3243#0#HTML" expanded="true" />
-            <element signature="e#3338#3373#0#HTML" expanded="true" />
-            <element signature="e#3406#3464#0#HTML" expanded="true" />
-            <element signature="e#3808#3839#0#HTML" expanded="true" />
-            <element signature="e#3935#4476#0#HTML" expanded="false" />
-            <element signature="e#4729#4748#0#HTML" expanded="true" />
+            <element signature="e#1422#4958#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -382,24 +387,31 @@
           <folding>
             <element signature="e#6870#6996#0#PHP" expanded="false" />
             <element signature="e#7070#7223#0#PHP" expanded="false" />
+            <element signature="e#7248#7329#0#PHP" expanded="false" />
             <element signature="e#7336#7700#0#PHP" expanded="false" />
             <element signature="e#7782#7971#0#PHP" expanded="false" />
             <element signature="e#7909#7971#0#PHP" expanded="false" />
             <element signature="e#8090#8476#0#PHP" expanded="false" />
             <element signature="e#8741#9103#0#PHP" expanded="false" />
             <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#9183#9372#0#PHP" expanded="false" />
+            <element signature="e#9310#9372#0#PHP" expanded="false" />
             <element signature="e#9468#9983#0#PHP" expanded="false" />
             <element signature="e#10080#10269#0#PHP" expanded="false" />
             <element signature="e#10207#10269#0#PHP" expanded="false" />
             <element signature="e#10472#10795#0#PHP" expanded="false" />
             <element signature="e#10882#11400#0#PHP" expanded="false" />
             <element signature="e#11660#12150#0#PHP" expanded="false" />
+            <element signature="e#12572#12746#0#PHP" expanded="false" />
+            <element signature="e#12691#12746#0#PHP" expanded="false" />
             <element signature="e#12954#13826#0#PHP" expanded="false" />
             <element signature="e#14401#14760#0#PHP" expanded="false" />
             <element signature="e#15090#15779#0#PHP" expanded="false" />
             <element signature="e#15891#16287#0#PHP" expanded="false" />
+            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
             <element signature="e#16373#16562#0#PHP" expanded="false" />
             <element signature="e#16500#16562#0#PHP" expanded="false" />
+            <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
           </folding>
         </state>
       </provider>
@@ -425,17 +437,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#118#2192#0#HTML" expanded="false" />
-            <element signature="e#2205#5741#0#HTML" expanded="false" />
-            <element signature="e#2908#2942#0#HTML" expanded="true" />
-            <element signature="e#2974#3031#0#HTML" expanded="true" />
-            <element signature="e#3120#3154#0#HTML" expanded="true" />
-            <element signature="e#3186#3243#0#HTML" expanded="true" />
-            <element signature="e#3338#3373#0#HTML" expanded="true" />
-            <element signature="e#3406#3464#0#HTML" expanded="true" />
-            <element signature="e#3808#3839#0#HTML" expanded="true" />
-            <element signature="e#3935#4476#0#HTML" expanded="false" />
-            <element signature="e#4729#4748#0#HTML" expanded="true" />
+            <element signature="e#1422#4958#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -455,24 +457,31 @@
           <folding>
             <element signature="e#6870#6996#0#PHP" expanded="false" />
             <element signature="e#7070#7223#0#PHP" expanded="false" />
+            <element signature="e#7248#7329#0#PHP" expanded="false" />
             <element signature="e#7336#7700#0#PHP" expanded="false" />
             <element signature="e#7782#7971#0#PHP" expanded="false" />
             <element signature="e#7909#7971#0#PHP" expanded="false" />
             <element signature="e#8090#8476#0#PHP" expanded="false" />
             <element signature="e#8741#9103#0#PHP" expanded="false" />
             <element signature="n#end_lvl#0;n#My_Menu#0;n#!!top" expanded="false" />
+            <element signature="e#9183#9372#0#PHP" expanded="false" />
+            <element signature="e#9310#9372#0#PHP" expanded="false" />
             <element signature="e#9468#9983#0#PHP" expanded="false" />
             <element signature="e#10080#10269#0#PHP" expanded="false" />
             <element signature="e#10207#10269#0#PHP" expanded="false" />
             <element signature="e#10472#10795#0#PHP" expanded="false" />
             <element signature="e#10882#11400#0#PHP" expanded="false" />
             <element signature="e#11660#12150#0#PHP" expanded="false" />
+            <element signature="e#12572#12746#0#PHP" expanded="false" />
+            <element signature="e#12691#12746#0#PHP" expanded="false" />
             <element signature="e#12954#13826#0#PHP" expanded="false" />
             <element signature="e#14401#14760#0#PHP" expanded="false" />
             <element signature="e#15090#15779#0#PHP" expanded="false" />
             <element signature="e#15891#16287#0#PHP" expanded="false" />
+            <element signature="n#end_el#0;n#My_Menu#0;n#!!top" expanded="false" />
             <element signature="e#16373#16562#0#PHP" expanded="false" />
             <element signature="e#16500#16562#0#PHP" expanded="false" />
+            <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
           </folding>
         </state>
       </provider>
@@ -489,17 +498,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#118#2192#0#HTML" expanded="false" />
-            <element signature="e#2205#5741#0#HTML" expanded="false" />
-            <element signature="e#2908#2942#0#HTML" expanded="true" />
-            <element signature="e#2974#3031#0#HTML" expanded="true" />
-            <element signature="e#3120#3154#0#HTML" expanded="true" />
-            <element signature="e#3186#3243#0#HTML" expanded="true" />
-            <element signature="e#3338#3373#0#HTML" expanded="true" />
-            <element signature="e#3406#3464#0#HTML" expanded="true" />
-            <element signature="e#3808#3839#0#HTML" expanded="true" />
-            <element signature="e#3935#4476#0#HTML" expanded="false" />
-            <element signature="e#4729#4748#0#HTML" expanded="true" />
+            <element signature="e#1422#4958#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,30 +663,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/single.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/page.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/archive.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,30 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="289" column="23" lean-forward="false" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/includes/noop.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="4372" column="9" lean-forward="false" selection-start-line="4372" selection-start-column="9" selection-end-line="4372" selection-end-column="9" />
-          <folding>
-            <marker date="1558095183000" expanded="true" signature="117741:117770" ph="..." />
-            <marker date="1558095183000" expanded="true" signature="193533:193562" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,34 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#118#2192#0#HTML" expanded="false" />
-            <element signature="e#2205#5741#0#HTML" expanded="false" />
-            <element signature="e#2908#2942#0#HTML" expanded="true" />
-            <element signature="e#2974#3031#0#HTML" expanded="true" />
-            <element signature="e#3120#3154#0#HTML" expanded="true" />
-            <element signature="e#3186#3243#0#HTML" expanded="true" />
-            <element signature="e#3338#3373#0#HTML" expanded="true" />
-            <element signature="e#3406#3464#0#HTML" expanded="true" />
-            <element signature="e#3808#3839#0#HTML" expanded="true" />
-            <element signature="e#3935#4476#0#HTML" expanded="false" />
-            <element signature="e#4729#4748#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -798,10 +728,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034">
+          <caret line="4181" column="9" lean-forward="false" selection-start-line="4181" selection-start-column="9" selection-end-line="4181" selection-end-column="9" />
+          <folding>
+            <marker date="1558095183000" expanded="true" signature="117741:117770" ph="..." />
+            <marker date="1558095183000" expanded="true" signature="193533:193562" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="168" column="4" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2744">
+          <caret line="1924" column="9" lean-forward="false" selection-start-line="1924" selection-start-column="9" selection-end-line="1924" selection-end-column="9" />
+          <folding>
+            <marker date="1555446651000" expanded="true" signature="66289:66305" ph="Insert into post... " />
+            <marker date="1555446651000" expanded="true" signature="66315:66331" ph="Insert into page... " />
+            <marker date="1555446651000" expanded="true" signature="94941:95025" ph="SELECT post_... $" />
+            <marker date="1555446651000" expanded="true" signature="96970:97121" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="97291:97384" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="103291:103331" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="104817:104885" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="105216:105293" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="105750:105815" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1555446651000" expanded="true" signature="106009:106063" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1555446651000" expanded="true" signature="111393:111476" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1555446651000" expanded="true" signature="113448:113531" ph="UPDATE ${$wp... " />
+            <marker date="1555446651000" expanded="true" signature="134813:134854" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="147731:147807" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="148894:149029" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="150154:150249" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="164830:164882" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="167555:167695" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="169563:169661" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="169730:169807" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="182101:182159" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="186902:186942" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="188157:188222" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1555446651000" expanded="true" signature="188417:188471" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1555446651000" expanded="true" signature="189681:189800" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1555446651000" expanded="true" signature="214718:214863" ph="SELECT post_... " />
+            <marker date="1555446651000" expanded="true" signature="214921:215062" ph="SELECT post_... " />
+            <marker date="1555446651000" expanded="true" signature="215174:215368" ph="SELECT DATE_... " />
+            <marker date="1555446651000" expanded="true" signature="226526:226636" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="229158:229214" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+            <marker date="1555446651000" expanded="true" signature="232418:232487" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-thumbnail-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="361" column="38" lean-forward="false" selection-start-line="361" selection-start-column="38" selection-end-line="361" selection-end-column="38" />
+          <caret line="211" column="9" lean-forward="false" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
           <folding>
             <element signature="e#6870#6996#0#PHP" expanded="false" />
             <element signature="e#7070#7223#0#PHP" expanded="false" />
@@ -830,6 +827,24 @@
             <element signature="e#16373#16562#0#PHP" expanded="false" />
             <element signature="e#16500#16562#0#PHP" expanded="false" />
             <marker date="1565563255845" expanded="true" signature="15244:15298" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/metro/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#1422#4958#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

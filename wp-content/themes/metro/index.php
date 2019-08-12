@@ -2,46 +2,45 @@
 get_header();
 ?>
 
-<!--HOME-->
 
-    <div class="wrapper" id="home">
+<!--HOME-->
+<a name="home/"></a>
+    <div class="wrapper" >
         <div class="wrapper-in">
             <div class="content">
+                <?php
+
+                $posts = get_posts(array(
+                    'numberposts' => 5,
+                    'category_name' => 'home',
+                    'orderby' => 'date',
+                    'order' => 'DESC',
+                    'include' => array(),
+                    'exclude' => array(),
+                    'meta_key' => '',
+                    'meta_value' => '',
+                    'post_type' => 'post',
+                    'suppress_filters' => true,
+                ));
+
+                foreach ($posts as $post) :
+                    setup_postdata($post);
+                    ?>
+
                 <div class="block-new">
-                    <a href="#"><img src="images/img-new.jpg" alt=""></a>
+                    <a href="#"><img src="<?php echo get_the_post_thumbnail_url($post->ID,[52,52]); ?>" alt=""></a>
                     <div class="block-new-info">
-                        <h3><a href="#">Acoustic Music @ The Metropolitan Hotel</a></h3>
-                        <p>June 11: Saturday, June 16 at 9:00pm at Metropolitan Hotel North Melbourne</p>
+                        <h3><a href="#"> <?php echo $post->post_title; ?></a></h3>
+                        <?php
+                            $ct=preg_replace('#<?php [{\w},\s\d"]+ ?>#','',$post->post_content);
+                        echo substr($ct,0,130).'...';
+                        ?>
                     </div>
                 </div>
-                <div class="block-new">
-                    <a href="#"><img src="images/img-new.jpg" alt=""></a>
-                    <div class="block-new-info">
-                        <h3><a href="#">New menu</a></h3>
-                        <p>June 11: New Menu.... New Management and a New Feel, come re-visit or visit the Metro..</p>
-                    </div>
-                </div>
-                <div class="block-new">
-                    <a href="#"><img src="images/img-new.jpg" alt=""></a>
-                    <div class="block-new-info">
-                        <h3><a href="#">New Winter Menu</a></h3>
-                        <p>June 1: New Winter Menu has now landed, come in and try our superb offerings... why not try our Oxtail and Mushroom Pudding or our Celeriac Parfait</p>
-                    </div>
-                </div>
-                <div class="block-new">
-                    <a href="#"><img src="images/img-new.jpg" alt=""></a>
-                    <div class="block-new-info">
-                        <h3><a href="#">Hunters feast</a></h3>
-                        <p>May 1: Hunter's Feast Coming Soon to the Metropolitan Hotel - 2nd June - watch this space...</p>
-                    </div>
-                </div>
-                <div class="block-new block-new-last">
-                    <a href="#"><img src="images/img-new.jpg" alt=""></a>
-                    <div class="block-new-info">
-                        <h3><a href="#">Mother day lunch</a></h3>
-                        <p>May 1: Don’t forget to book in early for mothers day!</p>
-                    </div>
-                </div>
+
+                <?php endforeach;
+                wp_reset_postdata(); ?>
+
             </div>
             <div class="sidebar">
                 <div class="block-sid">
@@ -110,16 +109,72 @@ get_header();
 <!--CONTACT-->
 
 
-<?php
-$categories = get_categories();
+<a name="contact/"></a>
+    <div   class="wrapper">
+        <div class="wrapper-in">
+            <div class="content">
+                <h1>Contact</h1>
+                <p><b>Email:</b> publican@metrohotel.com.au<br> <b>Phone:</b> (03) 9328 4222<br> <b>Fax:</b> (03) 9328 4288</p>
+                <h3>OPENING TIMES</h3>
+                <p><b>Kitchen:</b><br> Mon – Thu 12pm-2pm, 6-9pm;<br> Fri 12pm-3pm, 6pm-9pm<br> Sat 6pm-9pm<br> <b>Bar:</b> Daily 11.30am-late<br> <b>Closed:</b> Sundays</p>
+                <h3>ADDRESS</h3>
+                <p>36-42 Courtney St,<br> (Cnr Blackwood St)<br> North Melbourne 3051<br> Victoria</p>
+                <div class="box-img-map">
+                    <a href="#"><img src="images/img-map.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="block-sid">
+                    <div class="box-icons">
+                        <a href="#"><img src="images/icon-facebook.png" alt=""></a>
+                        <a href="#"><img src="images/icon-twitter.png" alt=""></a>
+                        <a href="#"><img src="images/icon-urbanspoon.png" alt=""></a>
+                    </div>
+                    <div class="title-follow_us">Follow us</div>
+                </div>
+                <div class="block-sid">
+                    <div class="box-icons">
+                        <a href="#"><img src="images/icon-pdf.png" alt=""></a>
+                    </div>
+                    <div class="title-functions_package">Functions package</div>
+                </div>
+                <div class="block-sid">
+                    <div class="title-make_a_reservation">Make a reservation</div>
+                    <form class="form-sid" action="" method="post">
+                        <div class="box-line">
+                            <p class="label"><label for="name">name</label><input id="name" type="text" value=""></p>
+                            <p class="label"><label style="left: 28px;" for="date">date</label><input id="date" type="text" value=""></p>
 
-foreach ($categories as $category){
-    $catname=get_category_link($category->term_id);
+                            <script type="text/javascript">
+                                jQuery(document).ready(function(){
+                                    Calendar.setup
+                                    ({
+                                        ifFormat    : "%d-%m-%Y",
+                                        inputField  : "date", // ID of the input field
+                                        button      : "date"      // ID of the button,
+                                    });
+                                })
+                            </script>
 
-    ?>
-   <a href="<?php echo $catname;?>"></a>
+                        </div>
+                        <div class="box-line">
+                            <p class="label"><label for="phone">phone</label><input id="phone" type="text" value=""></p>
+                            <p class="label"><label style="left: 28px;" for="time">time</label><input id="time" type="text" value=""></p>
+                        </div>
+                        <div class="box-line">
+                            <p class="label"><label for="email">email</label><input id="email" type="text" value=""></p>
+                        </div>
+                        <div class="box-line">
+                            <p class="label"><label for="mes">Number of people and special<br> requirements...</label><textarea id="mes" cols="10" rows="10"></textarea></p>
+                        </div>
+                        <label class="sub"><input type="submit" value=""></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<?php }; ?>
+
 
 
 <!--END CONTACT-->

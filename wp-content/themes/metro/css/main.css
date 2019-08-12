@@ -164,7 +164,12 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover{text-decoration: underline;}
 .container {width:100%; height: 100%;}
 
 /*-------------------- header ---------------------*/
-.header {width: 900px; padding: 0 45px; margin: 0 auto;}
+
+.header {
+	margin: 0 auto;
+	width: 900px;
+	padding: 0 45px;
+}
 #logo {width:390px; height:121px; display:block; background:url(../images/logo_metropolitan_hotel.png) no-repeat; cursor:pointer; overflow:hidden; text-indent:-9999px; margin:20px auto 0; padding:0; text-decoration:none;}
 
 .nav{list-style: none; background:url(../images/bg-line.png) no-repeat center bottom; width: 870px; padding: 25px 40px 25px 80px; float: left; margin: 0 0 0 -45px; position: relative; z-index: 20;}
